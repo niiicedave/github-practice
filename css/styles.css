@@ -1,3 +1,7 @@
 body{
     color:black;
 }
+
+p{
+    font-weight: bold;
+}
