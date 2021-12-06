@@ -1,11 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
-    color:black;
+    background-color:darkblue;
 }
 
 p{
     font-weight: bold;
+    color:greenyellow;
 }
 
 h1{
-    text-decoration: blue;
+    color:khaki;
 }
+
+.column {
+    float: left;
+    padding:1em;
+  }
+
+/* two columns */
+
+.left50{
+    width:66%;
+}
+
+.right50{
+    width:34%;
+}
+
+/* three columns */
+
+.left33{
+    width:33%
+}
+
+.middle33{
+    width:34%
+}
+
+.right33{
+    width:33%;
+}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
